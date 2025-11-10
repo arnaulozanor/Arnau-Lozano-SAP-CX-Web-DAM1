@@ -1,0 +1,382 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #0187bc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7% 1.5%;
+}
+
+.logo {
+  height: 5.3rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 40px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul:first-of-type {
+  margin: 0 auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a.active, nav a:hover {
+  text-decoration: underline;
+}
+
+nav .sessio button{
+  background-color: #006a94;
+}
+
+nav .sessio button:hover{
+  background-color: #00a7d1;
+}
+
+.intro{
+  background: url('/img/SOFTWARE-CRM.png') center/cover no-repeat;
+  color: white;
+  padding: 7rem 2rem;
+  justify-content: center;
+  margin-left: -26%;
+  width: 94.8vw;
+
+}
+
+li{
+  list-style: none;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.highlights {
+  text-align: center;
+  margin: 4rem auto;
+  max-width: 1000px;
+  padding: 2rem;
+}
+
+.highlights h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.highlights ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.highlights li {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  flex: 1 1 220px;
+  max-width: 240px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.highlights li img {
+  width: 35%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.highlights li p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.funcions {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.funcions h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.funcions ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.funcions li {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.funcions img {
+  width: 8em;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.funcions h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.funcions p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+footer {
+  padding: 1em;
+  background-color: #0187bc;
+  color: white;
+  margin-top: 30px;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-left p {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: text-decoration 0.2s;
+}
+
+.footer-left a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: text-decoration 0.2s;
+}
+
+.footer-right p {
+  margin: 0;
+  text-align: right;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  background-color: #0187bc;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #00afc6;
+}
+
+.billing {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 30px 0;
+}
+
+.billing input {
+  display: none;
+}
+
+.billing label {
+  background: #e6faff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #0187bc;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.billing input:checked + label {
+  background: #0173a0;
+  color: white;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.plan {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 1.5rem;
+  flex: 1 1 280px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.plan:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.plan.best {
+  border: 2px solid #b2f200;
+  background: #f8fff0;
+}
+
+.badge {
+  background: #b2f200;
+  color: #000;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 10px;
+  position: absolute;
+  top: -12px;
+  left: 20px;
+}
+
+.price {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.price span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.price .annual {
+  display: none;
+}
+
+.billing:has(#annual:checked) + .plans .price .monthly { display: none; }
+.billing:has(#annual:checked) + .plans .price .annual  { display: inline; }
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-form h2 {
+  color: #00a7d1;
+  margin-bottom: 1rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #00a7d1;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #00c2f2;
+}
+
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info h2,
+.map h2 {
+  color: #00a7d1;
+  margin-bottom: 0.5rem;
+}
+
+.info p {
+  margin: 0.3rem 0;
+}

@@ -1,0 +1,20 @@
+@media (min-width: 992px) {
+  .funcions ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .plans {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

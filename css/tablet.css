@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+    nav ul:first-of-type {
+    margin: 0;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .highlights ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .funcions ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .plans {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .intro {
+    margin-left: 0;
+    width: 100%;
+  }
+}

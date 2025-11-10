@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+  nav ul {
+    gap: 10px;
+  }
+
+  .intro {
+    padding: 4rem 1rem;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .highlights ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .funcions ul {
+    grid-template-columns: 1fr;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footer-left {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

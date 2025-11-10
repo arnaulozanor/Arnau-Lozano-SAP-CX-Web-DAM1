@@ -58,8 +58,7 @@ nav .sessio button:hover{
 }
 
 .intro{
-  background: url('../img/SOFTWARE-CRM.png') center/cover no-repeat;
-  color: white;
+  background: url('img/SOFTWARE-CRM.png') center/cover no-repeat;
   padding: 7rem 2rem;
   justify-content: center;
   margin-left: -26%;
@@ -381,6 +380,7 @@ button:hover {
   margin: 0.3rem 0;
 
 }
+
 
 
 
